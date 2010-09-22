@@ -1,0 +1,174 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Models/f:Document.cs" caret="156" fromTop="6" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/f:Web.config" caret="0" fromTop="0" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:Shared/f:Site.Master" caret="778" fromTop="22" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:Index.aspx" caret="578" fromTop="12" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:SearchResults.aspx" caret="0" fromTop="0" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1109" fromTop="7" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/f:Web.config" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/f:Web.config" caret="9319" fromTop="6" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/f:Web.config" caret="2442" fromTop="2" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1273" fromTop="24" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1211" fromTop="6" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1111" fromTop="26" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Models/f:Document.cs" caret="33" fromTop="0" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Models/f:Document.cs" caret="144" fromTop="4" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="245" fromTop="4" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="905" fromTop="18" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1089" fromTop="16" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="393" fromTop="2" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:SearchResults.aspx" caret="213" fromTop="1" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:SearchResults.aspx" caret="501" fromTop="10" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:SearchResults.aspx" caret="880" fromTop="12" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1596" fromTop="15" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:SearchResults.aspx" caret="715" fromTop="17" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:SearchResults.aspx" caret="564" fromTop="7" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="127" fromTop="2" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="831" fromTop="22" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/f:Web.config" caret="2578" fromTop="5" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:Index.aspx" caret="406" fromTop="9" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1325" fromTop="9" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:Shared/f:Site.Master" caret="909" fromTop="23" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Views/d:DocumentRepository/f:Index.aspx" caret="578" fromTop="12" />
+      <File id="B47FE040-7256-4CE1-B2AB-46122B0C9E35/d:Controllers/f:DocumentRepositoryController.cs" caret="1544" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="BeginForm`0" priority="0" />
+      <Item value="TextBox`0" priority="0" />
+      <Item value="ActionLink`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="Html" priority="2" />
+      <Item value="public" priority="3" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="var" priority="1" />
+      <Item value="NorthPoleDB`0" priority="3" />
+      <Item value="from" priority="0" />
+      <Item value="new" priority="5" />
+      <Item value="db" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="d" priority="2" />
+      <Item value="View`0" priority="0" />
+      <Item value="x" priority="1" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="phrase" priority="1" />
+      <Item value="Byte`0" priority="0" />
+      <Item value="System" priority="1" />
+      <Item value="Data" priority="3" />
+      <Item value="OleDb" priority="1" />
+      <Item value="IDbConnection`0" priority="0" />
+      <Item value="OleDbConnection`0" priority="0" />
+      <Item value="OleDbCommand`0" priority="0" />
+      <Item value="OleDbCommand" priority="0" />
+      <Item value="OleDbParameter`0" priority="0" />
+      <Item value="cmd" priority="1" />
+      <Item value="VarChar" priority="0" />
+      <Item value="OleDbDataReader`0" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="reader" priority="2" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Models" priority="1" />
+      <Item value="yield return" priority="0" />
+      <Item value="Document" priority="0" />
+      <Item value="cn" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="GetDocuments`0" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="ViewData" priority="1" />
+      <Item value="Response" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="ConfigXmlDocument`0" priority="0" />
+      <Item value="FilestreamMVC" priority="0" />
+      <Item value="Document`0" priority="0" />
+      <Item value="throw" priority="1" />
+      <Item value="WaitHandleCannotBeOpenedException" priority="0" />
+      <Item value="NotImplementedException" priority="0" />
+      <Item value="SqlClient" priority="0" />
+      <Item value="SqlConnection`0" priority="0" />
+      <Item value="SqlCommand`0" priority="1" />
+      <Item value="SqlParameter`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FilestreamMVC.NorthPoleDB">
+      <Item value="DocumentRepositories" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FilestreamMVC.DocumentRepository">
+      <Item value="Document" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Binary">
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbCommand">
+      <Item value="Parameters" priority="0" />
+      <Item value="ExecuteReader`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbParameterCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbParameter">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbDataReader">
+      <Item value="Read`0" priority="0" />
+      <Item value="GetInt32`0" priority="1" />
+      <Item value="GetName`0" priority="0" />
+      <Item value="GetString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.OleDb.OleDbConnection">
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary`1">
+      <Item value="Model" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FilestreamMVC.Models.Document">
+      <Item value="ID" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.UrlHelper">
+      <Item value="Action`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

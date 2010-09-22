@@ -1,0 +1,255 @@
+Step #1 – Download and install Filterpack
+
+http://support.microsoft.com/default.aspx?scid=kb;en-us;945934
+
+ 
+
+Step#2 – enable File Streaming
+
+http://arcanecode.com/2009/05/18/enabling-filestream-on-sql-server-2008/
+
+ 
+
+Step#3 – Create DB and Table
+
+Exec sp_fulltext_service 'load_os_resources', 1
+
+Create DB Script –
+
+      /****** Object:  Database [NorthPole]    Script Date: 08/05/2010 12:50:27 ******/
+
+CREATE DATABASE [NorthPole] ON  PRIMARY
+
+( NAME = N'NorthPoleDB', FILENAME = N'C:\NorthPoleDB.mdf' , SIZE = 2304KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB ),
+
+ FILEGROUP [NorthPoleFS] CONTAINS FILESTREAM  DEFAULT
+
+( NAME = N'NorthPoleFS', FILENAME = N'C:\NorthPoleFS' )
+
+ LOG ON
+
+( NAME = N'NorthPoleLOG', FILENAME = N'C:\NorthPoleLOG.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET COMPATIBILITY_LEVEL = 100
+
+GO
+
+ 
+
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+
+begin
+
+EXEC [NorthPole].[dbo].[sp_fulltext_database] @action = 'enable'
+
+end
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET ANSI_NULL_DEFAULT OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET ANSI_NULLS OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET ANSI_PADDING OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET ANSI_WARNINGS OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET ARITHABORT OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET AUTO_CLOSE OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET AUTO_CREATE_STATISTICS ON
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET AUTO_SHRINK OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET AUTO_UPDATE_STATISTICS ON
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET CURSOR_CLOSE_ON_COMMIT OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET CURSOR_DEFAULT  GLOBAL
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET CONCAT_NULL_YIELDS_NULL OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET NUMERIC_ROUNDABORT OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET QUOTED_IDENTIFIER OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET RECURSIVE_TRIGGERS OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET  ENABLE_BROKER
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET AUTO_UPDATE_STATISTICS_ASYNC OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET DATE_CORRELATION_OPTIMIZATION OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET TRUSTWORTHY OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET ALLOW_SNAPSHOT_ISOLATION OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET PARAMETERIZATION SIMPLE
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET READ_COMMITTED_SNAPSHOT OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET HONOR_BROKER_PRIORITY OFF
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET  READ_WRITE
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET RECOVERY FULL
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET  MULTI_USER
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET PAGE_VERIFY CHECKSUM 
+
+GO
+
+ 
+
+ALTER DATABASE [NorthPole] SET DB_CHAINING OFF
+
+GO
+
+ 
+
+Step#4 – Create Table and Load
+
+http://arcanecode.com/2009/05/20/creating-tables-and-inserting-rows-with-filestream/
+
+ 
+
+Step#5 – Enable FullText Search
+
+http://arcanecode.com/2009/05/28/full-text-searching-a-filestream-varbinary-max-column/
+
+--you will need to manually create a primary key on the DocumentReposity table for the ID column.
+
+--you will most likely need to modify the reference to the primary key in the following create fulltext statement.  The auto naming may not match.
+
+ 
+
+         CREATE FULLTEXT INDEX ON dbo.DocumentRepository
+
+(DocumentName, Document TYPE COLUMN DocumentExtension)
+
+KEY INDEX PK__Document__3214EC277F60ED59
+
+ON FileStreamFTSCatalog
+
+WITH CHANGE_TRACKING AUTO;
+
+ 
+
+Step#6 – Example of retrieving FileStream Data
+
+http://arcanecode.com/2009/05/27/accessing-filestream-data-from-a-client-net-application-part-2-downloading-a-file/
+
+--I would like to add a search box (for fulltext)
