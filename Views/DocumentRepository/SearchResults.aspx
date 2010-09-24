@@ -23,7 +23,7 @@
           {%>
     <tr>
         <td><%=d.ID%></td>
-        <td><%=d.Name%></td>
+        <td><%=Html.ActionLink(d.Name, "LaunchDocument" + "/" + d.ID.ToString(), "DocumentRepository") %></td>
     </tr>        
         <%
           }
